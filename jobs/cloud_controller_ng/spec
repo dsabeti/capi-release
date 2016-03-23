@@ -611,3 +611,10 @@ properties:
   routing_api.enabled:
     description: "Whether to expose the routing_endpoint listed at /v2/info. Enable this after deploying the Routing API"
     default: false
+
+  cc.bits_service.enabled:
+    description: "Enable integration of the bits-service incubator (experimental)"
+    default: false
+  cc.bits_service.endpoint:
+    description: "Location of the bits-service. e.g http://10.10.10.1"
+    default: ""
