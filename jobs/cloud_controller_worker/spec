@@ -1,6 +1,11 @@
 ---
 name: cloud_controller_worker
 
+consumes:
+  - name: ccdb
+    type: db
+    optional: true
+
 description: "Cloud Controller worker processes background tasks submitted via the."
 
 templates:

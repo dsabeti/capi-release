@@ -1,6 +1,11 @@
 ---
 name: cloud_controller_ng
 
+consumes:
+- name: ccdb
+  type: db
+  optional: true
+
 description: "The Cloud Controller provides primary Cloud Foundry API that is by the CF CLI. The Cloud Controller uses a database to keep tables for organizations, spaces, apps, services, service instances, user roles, and more. Typically multiple instances of Cloud Controller are load balanced."
 
 templates:
