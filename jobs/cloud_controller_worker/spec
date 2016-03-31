@@ -5,6 +5,8 @@ consumes:
   - name: ccdb
     type: db
     optional: true
+  - name: nats
+    type: nats
 
 description: "Cloud Controller worker processes background tasks submitted via the."
 

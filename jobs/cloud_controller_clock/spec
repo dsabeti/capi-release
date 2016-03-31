@@ -5,6 +5,8 @@ consumes:
   - name: ccdb
     type: db
     optional: true
+  - name: nats
+    type: nats
 
 description: "The Cloud Controller clock periodically schedules Cloud Controller clean up tasks for app usage events, audit events, failed jobs, and more. Only single instance of this job is necessary."
 
