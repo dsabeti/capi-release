@@ -42,15 +42,6 @@ properties:
   app_domains:
     description: "Array of domains for user apps (example: 'user.app.space.foo', a user app called 'neat' will listen at 'http://neat.user.app.space.foo')"
 
-  nats.user:
-    description: "Username for cc client to connect to NATS"
-  nats.password:
-    description: "Password for cc client to connect to NATS"
-  nats.port:
-    description: "IP port of Cloud Foundry NATS server"
-  nats.machines:
-    description: "IP of each NATS cluster member."
-
   request_timeout_in_seconds:
     description: "Timeout for requests in seconds."
     default: 900

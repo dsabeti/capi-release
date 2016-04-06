@@ -65,15 +65,6 @@ properties:
     description: "The oauth client ID of the SSH proxy"
     default: ssh-proxy
 
-  nats.user:
-    description: "Username for cc client to connect to NATS"
-  nats.password:
-    description: "Password for cc client to connect to NATS"
-  nats.port:
-    description: "IP port of Cloud Foundry NATS server"
-  nats.machines:
-    description: "IP of each NATS cluster member."
-
   nfs_server.address:
     description: "NFS server for droplets and apps (not used in an AWS deploy, use s3 instead)"
   nfs_server.share_path:
